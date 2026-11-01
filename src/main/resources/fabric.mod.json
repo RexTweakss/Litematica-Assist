@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "litematicassist",
+  "version": "${version}",
+  "name": "LitematicAssist",
+  "description": "Client utility modules (mace, sell, auction).",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.litematicassist.LitematicAssist"],
+    "modmenu": ["com.litematicassist.ModMenuIntegration"]
+  },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*", "cloth-config": "*" },
+  "suggests": { "litematica": "*", "meteor-client": "*" }
+}
